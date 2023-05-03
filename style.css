@@ -1,0 +1,252 @@
+html{
+    overflow-x: hidden;
+}
+.my-page{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-bg{
+    background-color:#284b63 !important;
+    }
+.nav-bar ul{
+    padding-right: 60px;
+}
+
+.nav-link:hover{
+    color: #b9d2b9 !important;
+    
+}
+.nav-link{
+    color: white !important;
+}
+.F-page{
+    background-color:#b9d2b9;
+     /* background-color:#dcecdc; */
+} 
+.profile{
+    display: flex;
+    justify-content: center;
+    
+    }
+.img-bg{
+   
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.pro-img{
+    height: 100%;
+    width: 100%;
+    border: 4px solid #204964;
+    object-fit: contain;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #284b63;
+}
+.name h1{
+    font-weight: 700;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #284b63;
+}
+.work h2{
+    font-weight: 600;
+}
+.s-line{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 110px;
+}
+#About {
+    display: flex;
+    justify-content: center;
+}
+.content{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    
+}
+.content h1{
+    font-weight: 500;
+    text-align: center;
+}
+.content p{
+    /* margin-top: 68px; */
+    text-align: justify;
+}
+/* #About{
+    height: 100vh;
+} */
+.abt {
+    height: 250px;
+    width: 300px;
+}
+.abt img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 3px solid #284b63;
+}
+.abt-img{
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+.p1{
+   justify-content: space-evenly;
+}
+.p2 p{
+    margin:0;
+}
+.details h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom:60px ;
+    font-weight: 500;
+}
+.img-border{
+    justify-content: center;
+}
+.img-border img{
+    justify-content: center;
+    width: 175px;
+    height: 150px;
+    object-fit: cover;
+}
+.T-line{
+    border-right: 2px solid;
+    height: 100%;
+    margin: 0;
+    /* text-align: center; */
+
+}
+.line1{
+    border-right: 2px solid;
+    height: 70px;
+}
+.dot{
+    height: 55px;
+    width: 23px;
+    border: 2px solid;
+    background-color: #284b63;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.text h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+.box{
+/* margin: 95px auto; */
+/* width: 30px; */
+height: 125px;
+border-radius: 15px;
+box-shadow: 0px 5px 10px 0px rgba(54, 252, 90, 0.7);
+/* transform: translateY(30px); */
+/* padding: 50px; */
+display: flex;
+align-items: center;
+}
+.box1{
+    height: 125px;
+border-radius: 15px;
+box-shadow: 0px 5px 10px 0px rgba(54, 252, 90, 0.7);
+/* transform: translateY(45px); */
+/* padding: 50px; */
+display: flex;
+align-items: center;
+}
+.text1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.text1 h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+.text2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.text2 h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+.img-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Edu-img img{
+    width:100%;
+}
+.block{
+    border: 1.5px solid;
+    height: auto;
+    margin: 0;
+
+}
+.Edu-img-col{
+    display: flex;
+    justify-content: center;
+}
+.Edu-img-col img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.center1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1px;
+}
+.quotes{
+    justify-content: center;
+}
+.box h6{
+    margin: 10px;
+    text-align: center;
+}
+.box1 h6{
+    margin: 10px;
+    text-align: center;
+}
+.box2 h6{
+    margin: 10px;
+    text-align: center;
+}
+.title h1{
+    padding-top: 120px;
+    text-align: center;
+}
+
