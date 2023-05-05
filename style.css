@@ -1,5 +1,8 @@
-html{
+*{
     overflow-x: hidden;
+}
+h1 {
+    font-weight: bold !important;
 }
 .my-page{
     font-family: 'Montserrat', sans-serif;
@@ -19,7 +22,9 @@ html{
     color: white !important;
 }
 .F-page{
+    padding-top: 70px;
     background-color:#b9d2b9;
+    padding-bottom: 140px;
      /* background-color:#dcecdc; */
 } 
 .profile{
@@ -36,6 +41,7 @@ html{
     background-color: white;
 }
 .pro-img{
+    /* padding-top: 100px; */
     height: 100%;
     width: 100%;
     border: 4px solid #204964;
@@ -70,10 +76,11 @@ html{
 #About {
     display: flex;
     justify-content: center;
+    /* background-color: rgb(232, 230, 229); */
 }
 .content{
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-top: 140px;
+    padding-bottom: 150px;
     
 }
 .content h1{
@@ -112,7 +119,13 @@ html{
 .p2 p{
     margin:0;
 }
+#Education{
+    padding-top: 70px;
+    /* background-color: rgb(233, 232, 232); */
+    padding-bottom: 70px;
+}
 .details h1{
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     padding-bottom:60px ;
@@ -131,8 +144,14 @@ html{
     border-right: 2px solid;
     height: 100%;
     margin: 0;
+    margin-right: 1px;
     /* text-align: center; */
 
+}
+.T-line-1{
+    border-right: 2px solid;
+    height: 100%;
+    margin: 0;
 }
 .line1{
     border-right: 2px solid;
@@ -164,17 +183,25 @@ html{
 .box{
 /* margin: 95px auto; */
 /* width: 30px; */
-height: 125px;
-border-radius: 15px;
-box-shadow: 0px 5px 10px 0px rgba(54, 252, 90, 0.7);
+height: 130px;
+border-radius: 30px;
+box-shadow: 0px 10px 20px 2px rgba(54, 252, 90, 0.7);
 /* transform: translateY(30px); */
 /* padding: 50px; */
 display: flex;
 align-items: center;
 }
+.box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(54, 252, 90, 0.7);
+}
+.box1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(54, 252, 90, 0.7);
+}
 .box1{
-    height: 125px;
-border-radius: 15px;
+    height: 130px;
+border-radius: 30px;
 box-shadow: 0px 5px 10px 0px rgba(54, 252, 90, 0.7);
 /* transform: translateY(45px); */
 /* padding: 50px; */
@@ -212,7 +239,7 @@ align-items: center;
 .block{
     border: 1.5px solid;
     height: auto;
-    margin: 0;
+    margin-right: 1px;
 
 }
 .Edu-img-col{
@@ -220,8 +247,8 @@ align-items: center;
     justify-content: center;
 }
 .Edu-img-col img{
-    height: 150px;
-    width: 150px;
+    height: 105px;
+    width: 110px;
     border-radius: 50%;
 }
 .center1{
@@ -246,7 +273,112 @@ align-items: center;
     text-align: center;
 }
 .title h1{
-    padding-top: 120px;
+    /* padding-top: 60px; */
     text-align: center;
+    padding-bottom: 60px;
+}
+.title{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.call h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.call{
+    width: 60%;
+    margin: 0 auto;
+}
+#Contact textarea{
+    /* height: 50px; */
+    height: 170px;
+    border: 3px solid #284b63;
+}
+.con-details input,textarea{
+    border: 3px solid #284b63;
+}
+.btn-field{
+    background-color: #023a60 !important;
+    /* background-color: #09446b ! important; */
+    /* color: white; */
+    color: white !important;
+    display: flex ! important;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 220px;
+    align-items: center;
+    /* padding-bottom: 100px; */
+}
+.btn-field:hover{
+    box-shadow: 0px 0px 10px 10px;
+    color: #284b63 !important;
+}
+.submit{
+    color: white;
 }
 
+    
+.logo img{
+    height: 145px;
+    width: 215px;
+    border-radius: 90px;
+    box-shadow: 0px 5px 10px 0px rgba(48, 84, 229, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+.logo img:hover{
+    /* background-color: #6b8ddecc; */
+    background-color: #817df6cc;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.logo1 img{
+    padding: 40px;
+}
+.logo2 img{
+    padding: 45px;
+}
+.logo3 img{
+    padding: 45px;
+}
+.logo4 img{
+    padding: 38px;
+}
+.logo5 img{
+    padding: 38px;
+}
+.logo6 img{
+    padding: 30px;
+}
+.logo h3{
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media  (max-width:992px){
+    #About p{
+       margin-top: 30px;
+       
+    }
+    .navbar-nav li a{
+        padding-left: 30px;
+        /* display:flex; */
+        /* flex-direction: column; */
+        /* align-items: end; */
+    }
+    #About{
+        width: 80%;
+    }
+}
