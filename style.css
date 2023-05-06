@@ -239,7 +239,7 @@ align-items: center;
 .block{
     border: 1.5px solid;
     height: auto;
-    margin-right: 1px;
+    margin:0 1px 0 0;
 
 }
 .Edu-img-col{
@@ -340,7 +340,7 @@ align-items: center;
     align-items: center;
     /* border: 2px solid; */
 }
-.logo1 img{
+/* .logo1 img{
     padding: 40px;
 }
 .logo2 img{
@@ -357,7 +357,7 @@ align-items: center;
 }
 .logo6 img{
     padding: 30px;
-}
+} */
 .logo h3{
     font-weight: 600;
 }
